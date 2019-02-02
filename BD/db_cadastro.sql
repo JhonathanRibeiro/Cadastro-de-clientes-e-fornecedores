@@ -40,7 +40,7 @@ CREATE TABLE `tb_clientes` (
 --
 
 INSERT INTO `tb_clientes` (`id`, `nome`, `email`, `telefone`) VALUES
-(4, 'Jhonathan Ribeiro', 'jhonathanribeiro774@gmail.com', '46999100267');
+(4, 'Jhonathan Souza', 'jhonathan@souza.com', '43999523215');
 
 --
 -- Indexes for dumped tables
