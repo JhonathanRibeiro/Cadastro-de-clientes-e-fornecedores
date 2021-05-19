@@ -1,4 +1,4 @@
-# Cadastro-simples-PHP
+# Cadastro de Clientes e fornecedores
 
 CRUD básico em PHP com um sistema de cadastro de  clientes. 
 
