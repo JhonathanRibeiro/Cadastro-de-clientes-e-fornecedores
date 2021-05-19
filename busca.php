@@ -6,7 +6,14 @@
 <div class="row container">
     <div class="col s12">
         <h5 class="light">Pesquisa de clientes e fornecedores</h5><hr>
-        <p class="light paragraph">Listagem de registros</p>
+        <p class="light">
+        Você pesquisou por 
+            <?php 
+                include_once 'BD/conexao.php';
+                $busca = $_GET['pesquisa'];
+                echo '<b>'.$busca.'</b>';
+            ?>
+        </p>
             <table class="striped">
                 <thead>
                     <tr>
