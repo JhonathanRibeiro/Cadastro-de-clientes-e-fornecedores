@@ -2,7 +2,7 @@
 
 include_once 'conexao.php';
 
-$querySelect = $link->query("select * from tb_clientes");
+$querySelect = $link->query("select * from clientes");
 while($registros = $querySelect->fetch_assoc()):
     $id       = $registros['id'];
     $nome     = $registros['nome'];

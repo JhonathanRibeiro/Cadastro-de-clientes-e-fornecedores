@@ -6,7 +6,7 @@
     <!-- FORMULARIO DE CADASTRO -->
     <div class="row container">
         <p>&nbsp;</p>
-        <form action="BD/create.php" method="post" class="col s12">
+        <form action="BD/create.php" method="POST" class="col s12">
           <fieldset class="formulario" style="padding: 15px">
               <legend>
                   <img src="img/user.png" alt="[image]" width="150">
@@ -38,17 +38,24 @@
                 <input type="tel" name="telefone" id="telefone" maxlength="15" required>
                 <label for="telefone">Telefone do Cliente</label>
             </div>
+            <!-- CAMPO FORNECEDOR -->
+            <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input type="text" name="fornecedor" id="fornecedor" maxlength="35" required>
+                <label for="fornecedor">Fornecedor</label>
+            </div>
+            <!-- CAMPO CONFERENTE -->
+            <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input type="text" name="conferente" id="conferente" maxlength="35" required>
+                <label for="conferente">Conferente</label>
+            </div>
             <!-- BOTÕES -->
             <div class="input-field col s12">
-                <input type="submit" value="cadastrar" class="btn blue">
+                <input type="submit" value="cadastrar" class="btn blue" id="submit">
                 <input type="reset" value="limpar" class="btn red">
             </div>
           </fieldset>
         </form>
     </div>
-
-    
-        
-
-
  <?php include_once 'includes/footer.inc.php' ?>

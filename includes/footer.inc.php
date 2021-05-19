@@ -13,6 +13,12 @@
       $(document).ready(function(){
       $('.modal').modal();
       });
+
+      // let btn = document.querySelector('#submit');
+
+      // btn.addEventListener('click', (e) => {
+      //    e.preventDefault();
+      // });
     </script>
     </body>
 </html>
