@@ -18,7 +18,7 @@
 </div>
 <!-- CAMPO FORNECEDOR -->
 <div class="input-field col s12">
-    <i class="material-icons prefix">account_circle</i>
+    <i class="material-icons prefix">store</i>
     <input type="text" name="fornecedor" id="fornecedor" value="<?php echo $fornecedor ?>" maxlength="35" required>
     <label for="fornecedor">Fornecedor</label>
 </div>

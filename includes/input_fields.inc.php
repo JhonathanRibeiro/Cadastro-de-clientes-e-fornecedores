@@ -24,13 +24,13 @@
 </div>
 <!-- CAMPO FORNECEDOR -->
 <div class="input-field col s12">
-    <i class="material-icons prefix">account_circle</i>
+    <i class="material-icons prefix">store</i>
     <input type="text" name="fornecedor" id="fornecedor" maxlength="35" required>
     <label for="fornecedor">Fornecedor</label>
 </div>
 <!-- CAMPO CONFERENTE -->
 <div class="input-field col s12">
-    <i class="material-icons prefix">account_circle</i>
+    <i class="material-icons prefix">assignment</i>
     <input type="text" name="conferente" id="conferente" maxlength="35" required>
     <label for="conferente">Conferente</label>
 </div>
