@@ -15,14 +15,14 @@
 
  $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
  $_SESSION['id'] = $id;
- $querySelect = $link->query("select * from clientes where id='$id'");
+ $querySelect = $link->query("SELECT * FROM clientes WHERE id='$id'");
 
  while($registros = $querySelect->fetch_assoc()):
     $nome = $registros['nome'];
-    $nome = $registros['nome'];
-    $email = $registros['email'];
     $email = $registros['email'];
     $telefone = $registros['telefone'];
+    $fornecedor = $registros['fornecedor'];
+    $conferente    = $registros['conferente'];
 endwhile;
 ?>
 
@@ -53,6 +53,18 @@ endwhile;
                 <i class="material-icons prefix">phone</i>
                 <input type="tel" name="telefone" id="telefone" value="<?php echo $telefone ?>" maxlength="15" required>
                 <label for="telefone">Telefone do Cliente</label>
+            </div>
+            <!-- CAMPO FORNECEDOR -->
+            <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input type="text" name="fornecedor" id="fornecedor" value="<?php echo $fornecedor ?>" maxlength="35" required>
+                <label for="fornecedor">Fornecedor</label>
+            </div>
+            <!-- CAMPO CONFERENTE -->
+            <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input type="text" name="conferente" id="conferente" value="<?php echo $conferente ?>" maxlength="35" required>
+                <label for="conferente">Conferente</label>
             </div>
             <!-- BOTÕES -->
             <div class="input-field col s12">
