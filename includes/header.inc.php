@@ -18,5 +18,6 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- CSS MATERIALIZE -->    
         <link href="css/materialize.min.css" rel="stylesheet">
+        <link href="css/default.css" rel="stylesheet">
     </head>
     <body>
